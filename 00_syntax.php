@@ -14,11 +14,14 @@
   <?php
   echo "<h1>Title</h1>";
   ?>
-  <?
-  echo "<p>Hello World</p>";
-  echo " and PHP";
-  echo "<button>Click away</button>";
+  
+  <?php
+  echo "<br>";
+echo "<p>hello</p>";
+  echo "<button>Click</button>";
   ?>
+  
+
   <!--Echo HTML tags-->
 </body>
 
