@@ -40,6 +40,11 @@ echo "max(2,3) " . max(2,3) . '<br>';
 echo "min(2,3) " . min(2,3) . '<br>'; 
 echo "round(2.4) " . round(2.4) . '<br>'; 
 echo "round(2.5) " . round(2.5) . '<br>'; 
+echo "floor(2.6) " . floor(2.6) . '<br>'; 
+echo "ceil(2.6) " . ceil(2.6) . '<br>';
+
 // Formatting numbers
+$number = 123456789.123346346; //
+echo number_format($number, 2, '.', ',');
 
 // https://www.php.net/manual/en/ref.math.php
