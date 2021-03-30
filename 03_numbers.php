@@ -26,8 +26,11 @@ is_double(1.25); // true
 is_int(5); // true
 is_numeric("3.45"); // true
 is_numeric("3.45ssdfg"); // false
-// Conversion
-
+// Conversion https://youtu.be/2eebptXfEvw?t=2566
+$strNumber = '12.34';
+// $number = (float)$strNumber;
+$number = (int)$strNumber;
+var_dump($number);
 // Number functions
 
 // Formatting numbers
